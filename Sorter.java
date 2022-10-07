@@ -15,4 +15,15 @@ public class Sorter {
             }
         }
     }
+
+    public static void sort(int[] x){
+        sortAscending(x);
+        for(int i=0 ; i<x.length;i++)
+        System.out.print(x[i] + " ");
+    }
+public static void main(String[] args) {
+    int[] arr = { 12, 11, 13, 5, 6 };
+    sort(arr);
+}
+    
 }
